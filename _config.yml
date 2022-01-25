@@ -1,6 +1,6 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: jeenikanadani/resume
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -37,41 +37,37 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Nuclei (Project Discovery)
+      - layout: top-middle
+        border: weak
+        title: Nuclei Template
+        link_text: Nuclei Configuration Listing Template
         link: https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/configuration-listing.yaml
-        link_text: Link Text
-
+        additional_links:
+          - title:  Nuclei (Project Discovery)
+            icon: fab fa-github
+            url: https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/configuration-listing.yaml
+  
+      - layout: top-middle
         title: Rooting the Android Studio AVDs
+        link_text: Android Studio AVD Root
         link: https://github.com/jeenikanadani/android-studio-avd-root
-        link_text: Link Text
-        
-        # additional_links:
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #  icon: fab fa-github
-          #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #  icon: fab fa-github
-          #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-      #  quote: >
-        #  Short overview of the project (optional)
-      #  description: | # this will include new lines to allow paragraphs
-        #  Description about the work on/with the project
-
+        additional_links:
+          - title: Rooting the Android Studio AVDs
+            icon: fab fa-github
+            url: https://github.com/jeenikanadani/android-studio-avd-root
+  
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Securelayer7
-        sub_title: Associate Security Consultant
-        caption: JULY 2019 TO PRESENT
-        link: https://securelayer7.net/
-        quote: >
-          Learnt and Performed Vulnerability Assessment & Penetration Testing on various softwares.
-      layout: list
-      content: 
+    - layout: left
+      title: Securelayer7
+      sub_title: Associate Security Consultant
+      caption: JULY 2019 TO PRESENT
+      link_text: Securelayer7 Website
+      link: https://securelayer7.net/
+      quote: >
+        Learnt and Performed Vulnerability Assessment & Penetration Testing on various softwares.
+      description: |
         - Web and API Application Vulnerability Assessment & Penetration Testing.
         - Good Understanding on Docker and Docker-Composer.
         - Testing on REST and SOAP based API.
@@ -84,78 +80,130 @@ content:
         - Identifying risks and mitigating controls.
         - Preparing reports documenting based on internal templates.
         - Testing and analysis of bench marking the application against industry standards such as OWASP, SANS, NIIST.
-        - Performing Wireless Penetration Testing.
+        - Performing Wireless Penetration Testing. 
+        - Hardware Testing
 
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
+        border: weak
         title: Sanjay Ghodawat Institues
+        sub_title: BE. CSe
         caption: 2015 - 2019
-        description: | # this will include new lines to allow paragraphs
+        quote: > 
           Bachelors of Engineering in Computer Science & Engineering (BE.CSE)
+        description: |
 
+
+      - layout: left
+        border: weak
         title: Dr. D. Y. Patil Polytechnic 
+        sub_title: Diploma. CSe
         caption: 2012 - 2015
-        description: | # this will include new lines to allow paragraphs
+        quote: > 
           Diploma in Computer Science & Engineering (DIP.CSE)
+        description: |
+
+  
 
   - title: Certifications
     layout: list
     content:
-      - layout: top-right
+      - layout: top-middle
         title: OSCP (Offensive Security Certified Professional)
-        caption: Date
+        link_text: OSCP
         link: https://www.credly.com/badges/bca51930-4b61-417f-bc09-25949e8af5eb/public_url
+        
 
   - title: Presentations
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Infosecgirls
+        link_text: Infosecgirls Blog
         link: https://infosecgirls.in/blog/2020/02/29/2020-02-29-infosecgirls-pune-monthlymeet-2020/
-        description: | # this will include new lines to allow paragraphs
-          Local File Inclusion & Direcotry Traversal    
+        quote: > 
+          Local File Inclusion & Direcotry Traversal 
+        description: |
 
+     
+      - layout: top-left
         title: Null Ahmedabad
+        link_text: Null Ahmedabad Youtube
         link: https://www.youtube.com/watch?v=AUUFfxXjxI4
-        description: | # this will include new lines to allow paragraphs
+        quote: > 
           Let's Talk about OSCP and a career in Cyber Security
-
-        title: Securelayer7
-        link: https://www.youtube.com/watch?v=Fs_1gBuJS2M&t=81s
-        description: | # this will include new lines to allow paragraphs
-          CISO: Strategies of tomorrow's cybersecurity
-
+        description: |
+          People who pentest towards offensive side definitely want to be a OSCP certified, but due to its toughness and challenging nature it gets confusing while preparing. In this talk, I spoke about who to prepare OSCP, key takeaways, important points & suggestions for praparation of OSCP exam. 
+   
+      - layout: top-left
         title: Disha Infosec
+        link_text: Disha Infosec Youtube
         link: https://www.youtube.com/watch?v=SY2CcrzT5MU
-        description: | # this will include new lines to allow paragraphs
+        quote: > 
           Social Engineering
+        description: |
+          I gave a webinar on Social Engineering wear I spoke about Different types on Social Engineering Attacks. Also gave a idea on what meassures to take if you're a victim & also how to look for red flags to avoid being a victim.
+
+      - layout: top-left
+        title: Securelayer7
+        link_text: Securelayer7 Youtube
+        link: https://www.youtube.com/watch?v=Fs_1gBuJS2M&t=81s
+        quote: > 
+          CISO: Strategies of tomorrow's cybersecurity
+        description: |
+          wertyuiop
 
   - title: Skills
     layout: list
     content:
-      - layout: top-right
-        title: Programming Languages & Scripting
-        description: | # this will include new lines to allow paragraphs
-          PHP, Bash
+    - layout: left
+      title: Programming Languages & Scripting
+      description: | # this will include new lines to allow paragraphs
+         - PHP
+         - Bash
 
-        title: Operating Systems
-        description: | # this will include new lines to allow paragraphs
-          Linux & Windows
+    - layout: left
+      title: Operating Systems
+      description: |
+        - Linux
+        - Windows
+    
+    - layout: left 
+      title: Security Testing Method
+      description: |
+        - Black Box
+        - White Box 
+        - Grey Box 
 
-        title: Security Testing Method
-        description: | # this will include new lines to allow paragraphs
-          Black Box, White Box and Grey Box 
+    - layout: left 
+      title: Tools
+      description: |
+        - Burpsuite
+        - Nmap
+        - Metasploit
+        - Nessus 
+        - Immunity Debugger
+        - Acunetix
+        - IDA Pro 
+        - OpenVAS and other Penetration Testing Tool
 
-        title: Tools
-        description: | # this will include new lines to allow paragraphs
-          Burpsuite, Nmap, Metasploit, Nessus, Immunity Debugger, Acunetix, IDA Pro, OpenVAS and other Penetration Testing Tool
-        
-        title: Security Testing Skills
-        description: | # this will include new lines to allow paragraphs
-          Manual Analysis and Exploit, VAPT, Web Application Testing, Thick Client Application Security, API Testing, Mobile Application Testing, Docker & Kubernetes Testing.
+    - layout: left 
+      title: Security Testing Skills
+      description: |
+        - Manual Analysis
+        - Exploitation
+        - VAPT
+        - Web Application Testing
+        - Thick Client Application Security
+        - API Testing
+        - Mobile Application Testing
+        - Docker & Kubernetes Testing
+        - Hardware Testing
+    
 
+    
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -170,6 +218,7 @@ footer_show_references: true
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
