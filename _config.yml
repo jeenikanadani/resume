@@ -36,17 +36,16 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    content: 
       - layout: top-middle
         border: weak
         title: Nuclei Template
         link_text: Nuclei Configuration Listing Template
         link: https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/configuration-listing.yaml
         additional_links:
-          - title:  Nuclei (Project Discovery)
+          - title: Nuclei (Project Discovery)
             icon: fab fa-github
             url: https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/configuration-listing.yaml
-  
       - layout: top-middle
         title: Rooting the Android Studio AVDs
         link_text: Android Studio AVD Root
@@ -92,20 +91,19 @@ content:
         title: Sanjay Ghodawat Institues
         sub_title: BE. CSe
         caption: 2015 - 2019
-        quote: > 
+        quote: >
           Bachelors of Engineering in Computer Science & Engineering (BE.CSE)
         description: |
-
-
+          It all started with Fundamentals of Programming. I learnt a variety of programming languages. Over the period of my course, I was trained in C & C++, Java, SQL, ASPX, HTML. I learned about Data Structures, Object Oriented Programming, Operating Systems, Database Management Systems, Computer Networks, System Architecture, Software Engineering, Hadoop etc.
       - layout: left
         border: weak
         title: Dr. D. Y. Patil Polytechnic 
         sub_title: Diploma. CSe
         caption: 2012 - 2015
-        quote: > 
+        quote: >
           Diploma in Computer Science & Engineering (DIP.CSE)
         description: |
-
+          I learnt various Fundamentals of Computers and its Applications, Data Structures, Microproessor & Assembly Language Programming, Computer Networking, Database Management Systems, Real Time Operating Systems, Computer Organisation and Architecture & a lot of Mathematics - Probability, Fourier Transformations, Graph Theory, Boolean Algebra, Operations, etc. etc.
 
   - title: Certifications
     layout: list
@@ -120,28 +118,31 @@ content:
     layout: list
     content:
       - layout: top-left
+        border: weak
         title: Infosecgirls
         link_text: Infosecgirls Blog
         link: https://infosecgirls.in/blog/2020/02/29/2020-02-29-infosecgirls-pune-monthlymeet-2020/
-        quote: > 
-          Local File Inclusion & Direcotry Traversal 
+        quote: >
+          Local File Inclusion & Directory Traversal 
         description: |
-
+          I presented a session about 2 of the web application attacks i.e Local File Inclusion & Directory Traversal and also hightlighted the main difference between Local File Inclusion & Directory Traversal by giving practical demonstration. I also spoke about impact of both the attacks
      
       - layout: top-left
+        border: weak
         title: Null Ahmedabad
         link_text: Null Ahmedabad Youtube
         link: https://www.youtube.com/watch?v=AUUFfxXjxI4
-        quote: > 
+        quote: >
           Let's Talk about OSCP and a career in Cyber Security
         description: |
           People who pentest towards offensive side definitely want to be a OSCP certified, but due to its toughness and challenging nature it gets confusing while preparing. In this talk, I spoke about who to prepare OSCP, key takeaways, important points & suggestions for praparation of OSCP exam. 
    
       - layout: top-left
+        border: weak
         title: Disha Infosec
         link_text: Disha Infosec Youtube
         link: https://www.youtube.com/watch?v=SY2CcrzT5MU
-        quote: > 
+        quote: >
           Social Engineering
         description: |
           I gave a webinar on Social Engineering wear I spoke about Different types on Social Engineering Attacks. Also gave a idea on what meassures to take if you're a victim & also how to look for red flags to avoid being a victim.
@@ -150,10 +151,10 @@ content:
         title: Securelayer7
         link_text: Securelayer7 Youtube
         link: https://www.youtube.com/watch?v=Fs_1gBuJS2M&t=81s
-        quote: > 
+        quote: >
           CISO: Strategies of tomorrow's cybersecurity
         description: |
-          wertyuiop
+          I spoke about importance of Cyber Security with Business Perspective, how to identify areas of risks, understanding threats and risks, reliable cloud alternative. I also highlighted some important aspects such as importance of Encrypting the data, Use of strong passwords, Importance of Maintenance & Scheduling backups and also Educating / Training employees.
 
   - title: Skills
     layout: list
