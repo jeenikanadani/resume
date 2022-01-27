@@ -112,7 +112,22 @@ content:
         title: OSCP (Offensive Security Certified Professional)
         link_text: OSCP 
         link: https://www.credly.com/badges/bca51930-4b61-417f-bc09-25949e8af5eb/public_url
-        
+
+     - title: Acknowledgements
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: Synology (2021)
+        link_text: Synology 
+        link: https://www.synology.com/en-global/security/bounty_program/acknowledgement
+
+    layout: list
+    content:
+      - layout: top-middle
+        title: Dappy (2021)
+        link_text: Dappy 
+        link: https://dappy.tech/researchers
 
   - title: Presentations
     layout: list
