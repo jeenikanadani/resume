@@ -38,7 +38,6 @@ content:
     layout: list # Type of content section (list/text)
     content: 
       - layout: top-middle
-        border: weak
         title: Nuclei Template
         link_text: Nuclei Configuration Listing Template
         link: https://github.com/projectdiscovery/nuclei-templates/blob/master/exposures/configs/configuration-listing.yaml
@@ -87,7 +86,6 @@ content:
     layout: list
     content:
       - layout: left
-        border: weak
         title: Sanjay Ghodawat Institues
         sub_title: BE. CSe
         caption: 2015 - 2019
@@ -95,8 +93,8 @@ content:
           Bachelors of Engineering in Computer Science & Engineering (BE.CSE)
         description: |
           It all started with Fundamentals of Programming. I learnt a variety of programming languages. Over the period of my course, I was trained in C & C++, Java, SQL, ASPX, HTML. I learned about Data Structures, Object Oriented Programming, Operating Systems, Database Management Systems, Computer Networks, System Architecture, Software Engineering, Hadoop etc.
+     
       - layout: left
-        border: weak
         title: Dr. D. Y. Patil Polytechnic 
         sub_title: Diploma. CSe
         caption: 2012 - 2015
@@ -113,17 +111,14 @@ content:
         link_text: OSCP 
         link: https://www.credly.com/badges/bca51930-4b61-417f-bc09-25949e8af5eb/public_url
 
-     - title: Acknowledgements
+  - title: Acknowledgements
     layout: list
     content:
       - layout: top-middle
-        border: weak
         title: Synology (2021)
         link_text: Synology 
         link: https://www.synology.com/en-global/security/bounty_program/acknowledgement
 
-    layout: list
-    content:
       - layout: top-middle
         title: Dappy (2021)
         link_text: Dappy 
@@ -133,7 +128,6 @@ content:
     layout: list
     content:
       - layout: top-left
-        border: weak
         title: Infosecgirls
         link_text: Infosecgirls Blog
         link: https://infosecgirls.in/blog/2020/02/29/2020-02-29-infosecgirls-pune-monthlymeet-2020/
@@ -143,7 +137,6 @@ content:
           I presented a session about 2 of the web application attacks i.e Local File Inclusion & Directory Traversal and also hightlighted the main difference between Local File Inclusion & Directory Traversal by giving practical demonstration. I also spoke about impact of both the attacks
      
       - layout: top-left
-        border: weak
         title: Null Ahmedabad
         link_text: Null Ahmedabad Youtube
         link: https://www.youtube.com/watch?v=AUUFfxXjxI4
@@ -153,7 +146,6 @@ content:
           People who pentest towards offensive side definitely want to be a OSCP certified, but due to its toughness and challenging nature it gets confusing while preparing. In this talk, I spoke about who to prepare OSCP, key takeaways, important points & suggestions for praparation of OSCP exam. 
    
       - layout: top-left
-        border: weak
         title: Disha Infosec
         link_text: Disha Infosec Youtube
         link: https://www.youtube.com/watch?v=SY2CcrzT5MU
